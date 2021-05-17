@@ -1,0 +1,12 @@
+<script >
+    class MyComponent extends HTMLElement {
+        connectedCallback() {
+            this.innerHTML = `<h1> rajesh </h1>`;
+        }
+    }
+    window.customElements.define("my-component", MyComponent);
+</script>
+
+<body>
+    <my-component></my-component>
+</body>
